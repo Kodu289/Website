@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Web Page</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Optional external CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakke's Domain</title>
+    <style>
+        body{
+            background-color: #191919;
+            color: white;
+            font-family: comics-sans;
+            padding: 20px;
+    }
+
+    .slider-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      border: 2px solid #444;
+      padding: 10px;
+    }
+
+    .slider-container img {
+      width: 300px;
+      height: auto;
+      margin-right: 10px;
+      display: inline-block;
+      border-radius: 8px;
+    }
+  </style>
+    
 </head>
+
+
+
 <body>
+    <header>
+        <h1>My Garden of Rose Toys</h1>
+    </header>
 
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
+    <h2>Evidence</h2>
+    <div class="slider-container">
+        <img src="photo1.jpg" alt="Photo 1">
+        <img src="photo2.jpg" alt="Photo 2">
+        <img src="photo3.jpg" alt="Photo 3">
+        <img src="photo4.jpg" alt="Photo 4">
+        <img src="photo5.jpg" alt="Photo 5">
+    </div>
 
-  <main>
-    <p>This is the main content area.</p>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
-
-  <script src="scripts.js"></script> <!-- Optional external JS -->
+    <script src="scripts.js"></script> <!-- Optional external JS -->
 </body>
+
 </html>
